@@ -1,0 +1,407 @@
+.wrapper {
+  outline: solid rosybrown;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 30px;
+  margin: 30px;
+  gap: 70px;
+}
+
+.container1 {
+  width: 100px;
+  height: 120px;
+  position: relative;
+  outline: solid orange;
+}
+
+.item1 {
+  position: absolute;
+  transform: translate(0, 0);
+  transition: 1000ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}
+
+.container1:hover .item1,
+.container1:focus .item1 {
+  transform: translate(30px, 30px);
+  background-color: orange;
+}
+
+.container2 {
+  position: relative;
+  width: 100px;
+  height: 120px;
+  outline: solid grey;
+}
+
+.item2 {
+  position: absolute;
+  transition: 1000ms cubic-bezier(0.39, 0.575, 0.565, 1);
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(7, 141, 47);
+}
+
+.item2:hover,
+.item2:focus {
+  transform: scale(1.5, 1.5);
+  background-color: grey;
+}
+
+.container3 {
+  position: relative;
+  width: 100px;
+  height: 120px;
+  outline: solid darkblue;
+}
+
+.item3 {
+  position: absolute;
+  transition: 1000ms cubic-bezier(0.39, 0.575, 0.565, 1);
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(13, 120, 182);
+}
+
+.item3:hover,
+.item3:focus {
+  transform: scale(0.5, 0.5);
+  background-color: darkblue;
+}
+
+.container4 {
+  position: relative;
+  width: 100px;
+  height: 120px;
+  outline: solid black;
+}
+
+.item4 {
+  position: absolute;
+  transition: 1000ms cubic-bezier(0.39, 0.575, 0.565, 1);
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 16, 140);
+}
+
+.item4:hover,
+.item4:focus {
+  transform: scale(-1, 1);
+  background-color: rgb(187, 119, 159);
+}
+
+.container5 {
+  position: relative;
+  width: 100px;
+  height: 120px;
+  outline: solid rgb(189, 73, 20);
+}
+
+.item5 {
+  position: absolute;
+  transition: 1000ms cubic-bezier(0.39, 0.575, 0.565, 1);
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+
+.item5:hover,
+.item5:focus {
+  transform: rotate(360deg);
+  background-color: rgb(189, 73, 20);
+}
+
+.container6 {
+  position: relative;
+  width: 100px;
+  height: 120px;
+  outline: solid green;
+}
+
+.item6 {
+  position: absolute;
+  transition: 1000ms cubic-bezier(0.39, 0.575, 0.565, 1);
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(22, 161, 150);
+}
+
+.item6:hover,
+.item6:focus {
+  transform: skew(15deg);
+  background-color: green;
+}
+
+.container7 {
+  position: relative;
+  width: 100px;
+  height: 120px;
+  outline: solid rgb(43, 43, 35);
+}
+
+.item7 {
+  position: absolute;
+  transition: 1000ms cubic-bezier(0.39, 0.575, 0.565, 1);
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+
+.container7:hover .item7,
+.container7:focus .item7 {
+  transform: matrix(1, 2, 0.5, 1.5, 30, 30);
+  background-color: rgb(131, 250, 94);
+}
+
+.container8 {
+  position: relative;
+  width: 100px;
+  height: 120px;
+  outline: solid rgb(43, 43, 35);
+}
+
+.item8 {
+  position: absolute;
+  transition: 1000ms cubic-bezier(0.39, 0.575, 0.565, 1);
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcoral;
+}
+
+.container8:hover .item8,
+.container8:focus .item8 {
+  transform: translate(50%, 50%) scale(0.5) rotate(360deg);
+  background-color: rgb(145, 14, 145);
+}
+
+.container9 {
+  position: relative;
+  width: 100px;
+  height: 120px;
+  outline: solid rgb(185, 11, 133);
+}
+
+.item9 {
+  position: absolute;
+  transition: 1000ms cubic-bezier(0.39, 0.575, 0.565, 1);
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(202, 137, 194);
+}
+
+.container9:hover .item9,
+.container9:focus .item9 {
+  transform-origin: top right;
+  transform: scale(0.5);
+  background-color: rgb(43, 43, 35);
+}
+
+.container10 {
+  position: relative;
+  width: 100px;
+  height: 120px;
+  outline: solid rgb(219, 77, 11);
+}
+
+.item10 {
+  position: absolute;
+  transition: 1000ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  transform-origin: bottom right;
+  transform: rotate(0);
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(206, 20, 20);
+}
+
+.container10:hover .item10,
+.container10:focus .item10 {
+  transform-origin: bottom right;
+  transform: rotate(180deg);
+  background-color: rgb(43, 43, 35);
+}
+
+.container11 {
+  position: relative;
+  width: 100px;
+  height: 120px;
+  outline: solid rgb(11, 153, 219);
+}
+
+.item11 {
+  position: absolute;
+  transition: 1000ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  transform-origin: top left;
+  transform: rotate(0);
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.item11:hover,
+.item11:focus {
+  transform-origin: top left;
+  transform: rotate(-40deg);
+  background-color: rgb(43, 43, 35);
+}
+
+.container12 {
+  position: relative;
+  width: 100px;
+  height: 120px;
+  outline: solid rgb(207, 152, 173);
+}
+
+.item12 {
+  position: absolute;
+  transition: 1000ms cubic-bezier(0.39, 0.575, 0.565, 1);
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(31, 207, 110);
+}
+
+.container12:hover .item12,
+.container12:focus .item12 {
+  transform: perspective(400px) rotateX(45deg);
+}
+
+.container13 {
+  position: relative;
+  width: 100px;
+  height: 120px;
+  outline: solid rgb(207, 152, 173);
+}
+
+.item13 {
+  position: absolute;
+  transition: 1000ms cubic-bezier(0.39, 0.575, 0.565, 1);
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(13, 202, 193);
+}
+
+.container13:hover .item13,
+.container13:focus .item13 {
+  transform: translate3d(30px, 30px, 50px);
+  background-color: rgb(13, 202, 0.01);
+}
+
+.container14 {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 1000ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  width: 100px;
+  height: 120px;
+  outline: solid rgb(207, 152, 173);
+}
+
+.item14,
+.item15 {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(161, 202, 13);
+}
+
+.item14 {
+  z-index: 2;
+  transform: rotateY(0);
+  backface-visibility: hidden;
+}
+
+.item15 {
+  background-color: rgb(202, 0, 135);
+  transform: rotateY(-180deg);
+}
+.container14:hover .item14,
+.container14:focus .item14 {
+}
+
+.flip:hover .container14 {
+    transform: rotateY(-180deg);
+}
